@@ -1,9 +1,11 @@
+import Image from "next/image";
+
 export default function Home() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
             <div className="grid grid-cols-12 max-w-7xl w-full gap-6">
                 <div className="col-span-3 bg-ebony-clay-500 p-6 rounded-2xl drop-shadow-md">
-                    <img className="rounded-full" src="/avatar.jpg" alt="Hello.. it's me :)"/>
+                    <Image className="rounded-full" src="/avatar.jpg" alt="Hello.. it's me :)"/>
                     <p className="text-center">Tomasz Kisiel</p>
                     <p className="text-center">Software Engineer</p>
                     <h1 className="font-extrabold">Skills</h1>
@@ -38,12 +40,18 @@ export default function Home() {
                     <h1 className="font-extrabold">Experience</h1>
                     <p>Dev And Deliver, Cracow - Software Engineer</p>
                     <p>June 2021 - December 2023</p>
-                    <p>Played a pivotal role as a software engineer within a dynamic team, focusing on the development and maintenance of applications using microservices architecture.</p>
-                    <p>Led the integration efforts with numerous external services, ensuring seamless connectivity and functionality across multiple platforms.</p>
-                    <p>Spearheaded the design and implementation of a GraphQL API, enhancing data querying capabilities and streamlining communication between various components of the system.</p>
-                    <p>Collaborated closely with cross-functional teams to architect, build, and optimize microservices, contributing to a more scalable and robust infrastructure.</p>
-                    <p>Employed best practices and cutting-edge technologies to ensure high performance, security, and maintainability within the microservices ecosystem.</p>
-                    <p>Actively participated in code reviews, debugging sessions, and continuous integration processes to maintain code quality and foster a collaborative development environment.</p>
+                    <p>Played a pivotal role as a software engineer within a dynamic team, focusing on the development
+                        and maintenance of applications using microservices architecture.</p>
+                    <p>Led the integration efforts with numerous external services, ensuring seamless connectivity and
+                        functionality across multiple platforms.</p>
+                    <p>Spearheaded the design and implementation of a GraphQL API, enhancing data querying capabilities
+                        and streamlining communication between various components of the system.</p>
+                    <p>Collaborated closely with cross-functional teams to architect, build, and optimize microservices,
+                        contributing to a more scalable and robust infrastructure.</p>
+                    <p>Employed best practices and cutting-edge technologies to ensure high performance, security, and
+                        maintainability within the microservices ecosystem.</p>
+                    <p>Actively participated in code reviews, debugging sessions, and continuous integration processes
+                        to maintain code quality and foster a collaborative development environment.</p>
                     <h1 className="font-extrabold">Education</h1>
                     <p>Cracow University of Technology, Cracow – Computer Science</p>
                     <p>October 2021 – Present</p>
