@@ -1,113 +1,106 @@
-import Image from 'next/image'
-
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    return (
+        <main className="flex min-h-screen flex-col items-center justify-between p-24">
+            <div className="grid grid-cols-12 max-w-7xl w-full gap-6">
+                <div className="col-span-3 bg-ebony-clay-500 p-6 rounded-2xl drop-shadow-md">
+                    <img className="rounded-full" src="/avatar.jpg" alt="Hello.. it's me :)"/>
+                    <p className="text-center">Tomasz Kisiel</p>
+                    <p className="text-center">Software Engineer</p>
+                    <h1 className="font-extrabold">Skills</h1>
+                    <p>Problem-solving</p>
+                    <p>Software Architecture</p>
+                    <p>Algorithm Design & Analysis</p>
+                    <p>Object-Oriented Design</p>
+                    <p>System Optimization</p>
+                    <p>Agile Methodologies</p>
+                    <p>Code Refactoring & Maintenance</p>
+                    <p>Documentation & Communication</p>
+                    <p>Testing & Quality Assurance</p>
+                    <p>Continuous Learning & Adaptability</p>
+                    <h1 className="font-extrabold">Languages</h1>
+                    <div className="flex justify-between"><p>Polish</p><p>Native</p></div>
+                    <div className="flex justify-between"><p>English</p><p>B2</p></div>
+                    <div className="flex justify-between"><p>French</p><p>B2</p></div>
+                </div>
+                <div className="col-span-9 bg-ebony-clay-500 p-6 rounded-2xl drop-shadow-md">
+                    <h1 className="font-extrabold">About</h1>
+                    <p>
+                        I'm a passionate software engineer who enjoys coding and exploring new technologies. In addition
+                        to my love for programming, I have a diverse set of hobbies that includes sports, reading books,
+                        and learning languages.
+                    </p>
+                    <ul>
+                        <li>💻 Software Developer by profession, coding enthusiast by passion.</li>
+                        <li>📚 I'm an avid reader and always open to book recommendations.</li>
+                        <li>⚽ I enjoy doing sports, especially strength training and calisthenics.</li>
+                        <li>🌍 I'm learning English and French, while Polish is my native language.</li>
+                    </ul>
+                    <h1 className="font-extrabold">Experience</h1>
+                    <p>Dev And Deliver, Cracow - Software Engineer</p>
+                    <p>June 2021 - December 2023</p>
+                    <p>Played a pivotal role as a software engineer within a dynamic team, focusing on the development and maintenance of applications using microservices architecture.</p>
+                    <p>Led the integration efforts with numerous external services, ensuring seamless connectivity and functionality across multiple platforms.</p>
+                    <p>Spearheaded the design and implementation of a GraphQL API, enhancing data querying capabilities and streamlining communication between various components of the system.</p>
+                    <p>Collaborated closely with cross-functional teams to architect, build, and optimize microservices, contributing to a more scalable and robust infrastructure.</p>
+                    <p>Employed best practices and cutting-edge technologies to ensure high performance, security, and maintainability within the microservices ecosystem.</p>
+                    <p>Actively participated in code reviews, debugging sessions, and continuous integration processes to maintain code quality and foster a collaborative development environment.</p>
+                    <h1 className="font-extrabold">Education</h1>
+                    <p>Cracow University of Technology, Cracow – Computer Science</p>
+                    <p>October 2021 – Present</p>
+                    <p>
+                        Focusing on designing and constructing modern solutions for practical
+                        problems in computer science and digital electronics.
+                    </p>
+                    <p>
+                        Actively participated in the Cosmo PK student group as a software
+                        developer, contributing to projects involving space experimentation,
+                        measuring probes and cube satellites.
+                    </p>
+                    <p>University of Science and Technology, Cracow – Electronics</p>
+                    <p>October 2020 – September 2021</p>
+                    <p>
+                        Introduced to the basics of electronics and provided me with a
+                        foundational understanding of the field.
+                    </p>
+                    <h1 className="font-extrabold">Pet Projects</h1>
+                    <p>Letters and Numbers – Educational Game For Kids</p>
+                    <p>
+                        Designed and developed an engaging vocalized learning game tailored for
+                        Polish children, utilizing gamification techniques to facilitate learning of
+                        letters, numbers, basic mathematical equations, and vocabulary
+                        Implemented interactive and gamified elements to encourage children's
+                        participation and interest in learning, fostering a fun and educational
+                        environment that enhances language and math skills in young learners.
+                    </p>
+                    <p>Carrot Garden – Idle Clicker Game</p>
+                    <p>
+                        Developed a whimsical idle clicker game featuring humorous Easter eggs,
+                        centered around cultivating and collecting carrots and herbs to enhance
+                        your virtual garden.
+                        Designed and crafted original graphics using hand-drawn pictures on a
+                        graphics tablet, creating a visually engaging and unique gaming
+                        experience with self-made artwork.
+                    </p>
+                    <h1 className="font-extrabold">Achievements</h1>
+                    <p>mObywatel mHack – Centralny Ośrodek Informatyki</p>
+                    <p>
+                        Our team clinched victory and secured 1st place at the mObywatel mHack,
+                        where we proposed and implemented a groundbreaking solution for
+                        seamless complaint submissions, warranty requests, and product defect
+                        monitoring within the government application mObywatel. Our
+                        innovative integration with the Office of Competition and Consumer
+                        Protection garnered us the top prize in this hackathon.
+                    </p>
+                    <p>Kościuszkon – University of Science and Technology</p>
+                    <p>
+                        Our team secured 3rd place at the Kościuszko Hackathon by developing a
+                        real-time chat platform designed to provide mental health support. Our
+                        solution featured an AI-powered assistant, enabling immediate
+                        assistance in scenarios where a specialist was unavailable at the moment.
+                    </p>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+                </div>
+            </div>
+        </main>
+    )
 }
