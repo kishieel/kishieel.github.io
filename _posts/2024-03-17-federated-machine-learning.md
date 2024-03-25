@@ -5,7 +5,7 @@ categories: [Software Engineering, Machine Learning]
 tags: [AI, Machine Learning, Python, TensorFlow, Flower AI]     
 image: 
   path: /assets/img/0_ScNpwties8E6XEro.webp
-  caption: Photo by [Growtika](https://unsplash.com/@growtika?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
+  alt: Photo by <a href="https://unsplash.com/@growtika?utm_source=medium&utm_medium=referral">Growtika</a> on <a href="https://unsplash.com/?utm_source=medium&utm_medium=referral">Unsplash</a>
 ---
 
 # Introduction to Federated Machine Learning with Example
