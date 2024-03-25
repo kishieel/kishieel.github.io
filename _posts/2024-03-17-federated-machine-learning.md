@@ -8,8 +8,6 @@ image:
   alt: Photo by <a href="https://unsplash.com/@growtika?utm_source=medium&utm_medium=referral">Growtika</a> on <a href="https://unsplash.com/?utm_source=medium&utm_medium=referral">Unsplash</a>
 ---
 
-# Introduction to Federated Machine Learning with Example
-
 While building your own models with machine learning, whether you're constructing image classifiers, recommendation engines, or talkative GPT models, you may quickly encounter common issues. These include the lack of data for learning, or conversely, a shortage of computing power when dealing with a surplus of data, as well as privacy concerns and insufficient system elasticity to scale your learning progress.
 
 With the increasing interest in the use of mobile and IoT devices, a vast amount of data can be found on end-users' devices or within private companies' storage. They could serve as excellent sources for training your model. However, unfortunately, in manny cases you cannot just copy this data and store it in your own storage for learning purposes. But what if I were to tell you that there is a way to train a model even when you cannot transfer the data to your disks? This is where federated machine learning comes in.
