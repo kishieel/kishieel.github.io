@@ -25,3 +25,7 @@
 - type: stack-overflow
   icon: 'fab fa-stack-overflow'
   url:  'https://stackoverflow.com/users/6125779/kishieel'
+
+- type: medium
+  icon: 'fab fa-medium'
+  url:  'https://medium.com/@kishieel'

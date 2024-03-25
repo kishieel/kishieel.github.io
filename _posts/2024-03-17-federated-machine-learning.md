@@ -5,7 +5,7 @@ categories: [Software Engineering, Machine Learning]
 tags: [AI, Machine Learning, Python, TensorFlow, Flower AI]     
 image: 
   path: /assets/img/0_ScNpwties8E6XEro.webp
-  alt: Photo by Growtika on Unsplash
+  caption: Photo by [Growtika](https://unsplash.com/@growtika?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
 ---
 
 # Introduction to Federated Machine Learning with Example
@@ -26,7 +26,9 @@ But what is federated machine learning even at the first place? Well, in the vas
 
 For me, these three quotations above can clearly describe what federated learning is about. You can see that according to these definitions, the learning process is no longer taking place on one centralized device. Instead, each client is participating in training its own version of the global model, which is then merged together with other partial models from other clients again into one global model.
 
-![Photo by MarcT0K on Wikipedia](/assets/img/0_SVfk7cebPxwjCt97.webp)
+![Visualization of federated learning process](/assets/img/0_SVfk7cebPxwjCt97.webp)
+_Photo by [MarcT0K](https://commons.wikimedia.org/wiki/User:MarcT0K) on [Wikipedia](https://en.wikipedia.org/wiki/Federated_learning#/media/File:Centralized_federated_learning_protocol.png)_
+
 
 At this point, you may be wondering, if all of the clients train their own local models, how is the one final model achieved? Actually, there are a few methods to amalgamate all the local models into one, but in most cases, at the beginning, you will probably deal with the one called federated averaging.
 
