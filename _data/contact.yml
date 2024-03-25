@@ -1,0 +1,27 @@
+#  The contact options.
+
+- type: github
+  icon: "fab fa-github"
+
+#- type: twitter
+#  icon: "fa-brands fa-x-twitter"
+
+#- type: email
+#  icon: "fas fa-envelope"
+#  noblank: true
+
+#- type: rss
+#  icon: "fas fa-rss"
+#  noblank: true
+
+#- type: mastodon
+#  icon: 'fab fa-mastodon'
+#  url:  ''
+
+- type: linkedin
+  icon: 'fab fa-linkedin'
+  url:  'https://www.linkedin.com/in/tomasz-kisiel/'
+
+- type: stack-overflow
+  icon: 'fab fa-stack-overflow'
+  url:  'https://stackoverflow.com/users/6125779/kishieel'
