@@ -5,7 +5,7 @@ categories: [Software Engineering, Web Development]
 tags: [NestJS, NodeJS, Event-Driven Architecture, Microservices, TypeScript, Web Development]     
 image: 
   path: /assets/img/0_Zbr0_Ig-pL9uiwA2.webp
-  alt: Photo by <a href="https://unsplash.com/@sarahmutter?utm_source=medium&utm_medium=referral">Sarah Mutter</a> on <a href="https://unsplash.com/?utm_source=medium&utm_medium=referral">Unsplash</a>
+  caption: Photo by <a href="https://unsplash.com/@sarahmutter?utm_source=medium&utm_medium=referral">Sarah Mutter</a> on <a href="https://unsplash.com/?utm_source=medium&utm_medium=referral">Unsplash</a>
 ---
 
 NestJS is a great NodeJS framework that injects a lot of refreshment into the ecosystem of Node’s backend solutions. With its robust module system, it allows planning and building scalable architecture that contains modules responsible for wrapping related logic together. While working within a modular environment like this, you may sometimes encounter an issue of circular dependencies caused by tightly coupled modules. In most cases, you will recognize this as an error presented below.
