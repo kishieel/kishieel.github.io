@@ -6,6 +6,7 @@ tags: [CouchDB, Keycloak, SSO, Nginx, Docker]
 image: 
   path: /assets/img/1_4Ct1NdEQebqgnsNp6tkcjg.webp
   caption: Photo by <a href="https://unsplash.com/@mr_williams_photography">Micah Williams</a> on <a href="https://unsplash.com">Unsplash</a>
+
 ---
 
 In the coming weeks, I will face the task of enriching the current CouchDB deployment in one of the projects using it for metadata storage with features like SSO integration and fine-grained access management. As the SSO service of the project uses Keycloak under the hood and I am relatively new to both Keycloak and CouchDB, I decided to make some proof of concept beforehand and share the results within this blog post series.
