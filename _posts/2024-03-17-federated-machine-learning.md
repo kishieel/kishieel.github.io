@@ -5,7 +5,7 @@ categories: [Software Engineering, Machine Learning]
 tags: [AI, Machine Learning, Python, TensorFlow, Flower AI]     
 image: 
   path: /assets/img/0_ScNpwties8E6XEro.webp
-  caption: Photo by <a href="https://unsplash.com/@growtika?utm_source=medium&utm_medium=referral">Growtika</a> on <a href="https://unsplash.com/?utm_source=medium&utm_medium=referral">Unsplash</a>
+  caption: Photo by <a href="https://unsplash.com/@growtika">Growtika</a> on <a href="https://unsplash.com">Unsplash</a>
 ---
 
 While building your own models with machine learning, whether you're constructing image classifiers, recommendation engines, or talkative GPT models, you may quickly encounter common issues. These include the lack of data for learning, or conversely, a shortage of computing power when dealing with a surplus of data, as well as privacy concerns and insufficient system elasticity to scale your learning progress.
